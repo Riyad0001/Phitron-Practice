@@ -1,0 +1,1 @@
+{"name":"Local: last_in_last_out_using_stack","url":"e:\\DSA Doubly linked list\\last_in_last_out_using_stack.cpp","tests":[{"id":1704054473259,"input":"5\n10 20 30 40 50","output":"10 20 30 40 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA Doubly linked list\\last_in_last_out_using_stack.cpp","group":"local","local":true}
