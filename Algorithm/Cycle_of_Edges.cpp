@@ -1,14 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int N = 2 * 1e5 + 4;
+const int N = 1e5 + 2;
 int par[N];
 int siz[N];
+int level[N];
 void dsu_initialize(int n)
 {
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
         par[i] = -1;
         siz[i] = 1;
+        level[i] = 0;
     }
 }
 int dsu_find(int node)
@@ -38,6 +40,7 @@ int main()
 {
     int n, e;
     cin >> n >> e;
+    int cnt = 0;
     dsu_initialize(n);
     while (e--)
     {
@@ -45,27 +48,17 @@ int main()
         cin >> a >> b;
         int led1 = dsu_find(a);
         int led2 = dsu_find(b);
-        if (led1 != led2)
+        if (led1 == led2)
+        {
+            cnt++;
+            continue;
+        }
+        else
         {
             dsu_union_by_size(a, b);
         }
     }
-    set<int> leader;
-    for (int i = 1; i <= n; i++)
-    {
-        leader.insert(dsu_find(i));
-    }
-    cout << leader.size() - 1 << endl;
-    // for (int r : leader)
-    // {
-    //     cout << r << " ";
-    // }
-    auto it = leader.begin();
-    while (next(it) != leader.end())
-    {
-        cout << *it << " " << *next(it) << endl;
-        it++;
-    }
+    cout << cnt;
 
     return 0;
 }

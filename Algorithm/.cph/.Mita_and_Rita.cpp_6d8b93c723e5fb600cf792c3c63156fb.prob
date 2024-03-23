@@ -1,0 +1,1 @@
+{"name":"Local: Mita_and_Rita","url":"e:\\Phitron\\Algorithm\\Mita_and_Rita.cpp","tests":[{"id":1708802231828,"input":"2\n4\nO O R O\nO T T O\nO T T D\nO M T O\n4\nO O R O\nT O O D\nO M T O\nO O O O","output":"7\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Algorithm\\Mita_and_Rita.cpp","group":"local","local":true}

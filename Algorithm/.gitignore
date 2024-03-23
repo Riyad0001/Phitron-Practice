@@ -1,0 +1,8 @@
+# Ignore Code::Blocks project files
+*.cbp
+*.layout
+*.depend
+*.layout
+
+# Ignore executables
+*.exe

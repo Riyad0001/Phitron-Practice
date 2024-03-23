@@ -54,6 +54,5 @@ int main()
         else
             cout << dis[i] << " ";
     }
-
     return 0;
 }
