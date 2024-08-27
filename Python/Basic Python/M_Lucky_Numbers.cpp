@@ -1,0 +1,2 @@
+L = input()
+    M = input()

@@ -1,0 +1,1 @@
+{"name":"Local: I_Palindrome","url":"e:\\Phitron\\Python\\I_Palindrome.py","tests":[{"id":1712917954084,"input":"12121","output":"12121\nYES"},{"id":1712917976536,"input":"160","output":"61\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Python\\I_Palindrome.py","group":"local","local":true}
